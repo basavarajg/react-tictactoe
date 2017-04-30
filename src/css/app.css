@@ -1,0 +1,50 @@
+body {
+  background-color: lightblue;
+  font: 50px "Century Gothic", Futura, sans-serif;
+  margin: 100px;
+}
+
+.header {
+  font: 35px "Century Gothic", Futura, sans-serif;
+  color: #658;
+}
+
+.status {
+    color: #a69;
+    text-align: left;
+}
+
+.game {
+  height: 650px;
+  width: 650px;
+}
+
+.game-board {
+  color: lightblue;
+}
+
+.game-info {
+  color: #a69;
+}
+
+.board-row {
+  width: 300px;
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  height: 100px;
+  width: 100px;
+  background: #a69;
+  color: white;
+  border: 1px solid lightblue;
+  float: left;
+  font-size: 50px;
+  --font-weight: bold;
+  --margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
